@@ -16,7 +16,7 @@
 <body>
     <h1>UFO Sightings!</h1>
     <h3>Ooooooo.....</h3>
-
+    <a  href="../index.html">Spectacular Webpage Search</a>
     <div class="container">
 
         <!-- Adding form filter with button -->
@@ -25,7 +25,7 @@
                 <form>
                     <div class="form-group">
                         <label for="sighting-form">Filter UFO Sighting Date</label>
-                        <input class="form-control" id="sighting-form-input" name="sighting-form" type="text" placeholder="1/11/2011">
+                        <input class="form-control" id="datetime" name="sighting-form" type="text" placeholder="1/1/2010">
                     </div>
                     <button id="button" type="button" class="btn btn-default">Enter</button>
                 </form>
@@ -37,7 +37,7 @@
           <div class="col-md-12">
             <!-- UFO Sightings -->
             <!-- 'table' referenced by d3 in app.js -->
-            <table class="ufo_sightings">
+            <table id="ufo-table" class="ufo_sightings">
               <thead>
                   <!-- table rows to append data -->
                 <tr>
